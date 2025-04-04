@@ -1,0 +1,1 @@
+alter table Cidade add constraint fk_Estado_Cidade foreign key(cid_estID) references Estado(estID);
