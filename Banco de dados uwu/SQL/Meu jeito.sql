@@ -1,0 +1,1 @@
+select Primeiro_Nome, ultimo_nome, local_trabalho from colaborador_tarde where Local_Trabalho in ('Canada','Inglaterra')
