@@ -3,10 +3,10 @@ create table cliente (
    Nome varchar(48),
    Rua varchar(30),
    Numero integer,
-   bairro varchar(30),
-   cidade varchar(20),
-   uf char(2),
-   sexo char(1),
-   profissao varchar(50),
+   Bairro varchar(30),
+   Cidade varchar(20),
+   Uf char(2),
+   Sexo char(1),
+   Profissao varchar(50),
 constraint pk_Cpf primary key(cpf)
 )
