@@ -1,8 +1,8 @@
 create table compra (
-   Codcompra integer not null,
-   Cpf integer not null,
+   codcompra integer not null,
+   Cpf integer,
    Data_Compra date,
    Tipo_Pagamento char(1),
-constraint pk_Codcompra primary key(Codcompra),
+constraint pk_codcompra primary key(codcompra),
 constraint fk_Cpf foreign key(Cpf) references cliente(Cpf)
 )

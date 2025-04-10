@@ -1,0 +1,1 @@
+select nome_completo from colaborador_tarde where Nome_Completo like '%Le%'
